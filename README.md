@@ -18,7 +18,7 @@ Face and mask detection using CNN
 
 **tensorflow.keras.applications.mobilenetv2  preprocess_input**
 
-- 1.	from tensorflow.keras.applications.mobilenetv2
+- from tensorflow.keras.applications.mobilenetv2
 
 MobileNetV2 아키텍처를 인스턴스화
 ↓
@@ -43,7 +43,7 @@ MobileNets는 32 x 32보다 큰 모든 입력 크기를 지원하며 더 큰 이
 
 매개 변수의 수와 곱하기 더하기의 수는 각 레이어의 필터 수를 증가 / 감소시키는 alpha 매개 변수를 사용하여 수정할 수 있습니다. 이미지 크기와 알파 매개 변수를 변경하면 ImageNet 가중치가 제공되어 종이에 있는 22 개 모델을 모두 만들 수 있습니다.
 
-- 2.process_input
+- process_input
   모델의 입력에 맞게 이미지 배치를 인코딩하는 텐서 또는 Numpy 배열을 전처리합니다.
 
 **load_model**
@@ -91,6 +91,7 @@ OpenCV(Open Source Computer Vision)은 실시간 컴퓨터 비전을 목적으�
 인텔 CPU에서 사용되는 경우 속도의 향상을 볼 수 있는 IPP(Intel Performance Primitives)를 지원한다.
 이 라이브러리는 윈도, 리눅스 등에서 사용 가능한 크로스 플랫폼이며 오픈소스 BSD 허가서 하에서 무료로 사용할 수 있다.
 OpenCV는 TensorFlow , Torch / PyTorch 및 Caffe의 딥러닝 프레임워크를 지원한다. 
+
 **응용 기술의 예**
 - 인간과 컴퓨터 상호 작용 (HCI)
 - 물체 인식
