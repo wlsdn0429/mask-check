@@ -14,6 +14,8 @@ Face and mask detection using CNN
 
 ## TensorFlow 2+
 
+![tensorflow.png](tensorflow.png)
+
 **tensorflow.keras.applications.mobilenetv2  preprocess_input**
 
 - 1.	from tensorflow.keras.applications.mobilenetv2
@@ -74,6 +76,9 @@ Keras 모델 인스턴스. 원래 모델을 컴파일하여 최적기와 함께 
 컴파일되지 않은 모델이 반환되는 경우 컴파일 인수가 True로 설정된 경우 경고가 표시된다.
 
 ## OpenCV
+
+![opencv.png](opencv.png)
+
 import cv2로 불러올 수 있는 opencv 라이브러리는 이미지, 영상처리, Object Detection, Motion Detecton 등의 기능을 지원함
 기본적으로 이미지나 영상을 읽고 화면에 출력하거나 새로 저장하는 기능이 가장 기초적인 기능
 최근 머신러닝에서 영상 및 사진을 통한 학습법이 계속해서 발달함에 따라 opencv라이브러리를 통해 이를 효과적으로 이용할 수 있음
@@ -128,12 +133,15 @@ Numpy는 MATLAB 스타일의 문맥(syntax)을 제공한다.
 OpenCV-Python은 컴퓨터 비전에 관련한 다양한 문제를 해결하기 위한 프로토타입을 매우 빠르게 구현할 수 있는 도구이다.
 
 ## numpy
+
+![numpy.jpeg](numpy.jpeg)
+
 Numpy는 다차원 배열을 쉽게 처리하고 효율적으로 사용할 수있도록 지원하는 파이썬의 패키지 입니다. Numpy는 데이터 구조 외에도 수치 계산을 효율적으로 구현된 기능을 제공하며, 데이터 분석을 할 때, Pandas와 함께 자주 사용하는 도구로 등장합니다.
 
 데이터란 이미지, 오디오, 텍스트 숫자 등 다양한 형태와 크기로 존재합니다. 사람은 이런 데이터들을 가지고 이해하지만 컴퓨터는 0 또는 1만 이해합니다. 여기서 핵심은 데이터를 숫자의 배열로 볼 수 있습니다. 실제로 데이터 분석을 수행하기 위한 전제 조건은 컴퓨터가 이해할 수 있도록 데이터를 숫자 형식으로 변환하는 것입니다. 여기서 효율적으로 배열을 저장 및 조작 할 수 있어야 Numpy 배열과 동일한 기능을 제공할 수 있기 때문에 왜 Numpy를 사용해야 하는지 의문이 듭니다.  배열의 크기가 작으면 문제가 되지 않지만 Numpy 배열은 데이터의 크기가 커질수록 저장 및 핵심적인 도구로 인식이 되고 있습니다.
-## matplotlib
 
 ## winsound
+
 <winsound – 윈도우용 소리 재생 인터페이스>
 
 - Import winsound
